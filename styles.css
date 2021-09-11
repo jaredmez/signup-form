@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("images/bg-intro-mobile.png");
+    background-color: hsl(0, 100%, 76%) ;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    margin: 50px 20px 10px 20px;
+    font-size: 24px;
+    text-align: center;;
+}
+
+.about-ctn>p {
+    font-weight: 500;
+    padding: 0 10px 10px 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: hsl(240, 12%, 92%);
+    font-size: 16px;
+}
+
+.free-trial-banner {
+    background-color: hsl(248, 32%, 49%);
+    color: hsl(240, 12%, 92%);
+    padding: 15px 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.free-trial-banner>p>span {
+    font-weight: 700;
+    color: white;
+    
+}
+
+.form-ctn {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 650px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+form>input {
+    font-weight: 600;
+    color: orange;
+    padding: 15px 15px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: block;
+    width: 100%
+    
+}
+
+form>button {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+
+.terms-conditions>p {
+    padding: 10px 25px;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(173, 172, 172);
+}
+
+.terms-conditions>p>span {
+    color: brown;
+    font-weight: 600;
+    font-size: 11px;
+}
