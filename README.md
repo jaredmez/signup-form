@@ -5,7 +5,7 @@ Built a responsive web component that emulates a sign-up page.
 
 ### Screenshot
 
-![Screenshot](/images/screenshot.jpg)
+![Screenshot](/images/screenshot.png)
 
 
 ### Links
